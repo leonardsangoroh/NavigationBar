@@ -21,6 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let vc = ViewController()
         let nav = UINavigationController(rootViewController: vc)
+        nav.setupNavBarColor()
+        
         
         window.rootViewController = nav
         

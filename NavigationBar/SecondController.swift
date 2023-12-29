@@ -19,6 +19,12 @@ class SecondController: UIViewController {
         
         self.navigationController?.navigationBar.prefersLargeTitles = true
         self.navigationItem.largeTitleDisplayMode = .always
+        
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "Custom", style: .done, target: nil, action: nil)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        /// If one wants to set the navigation color to be dynamic for each view
     }
     
 

@@ -25,6 +25,17 @@ class ViewController: UIViewController {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "star") , style: .plain, target: self, action: #selector(didTapButton))
         
         self.navigationItem.largeTitleDisplayMode = .never
+        
+        //self.setupNavImage()
+        
+    }
+    
+    private func setupNavImage() {
+        let imageView = UIImageView(image: UIImage(named: "logo"))
+        imageView.contentMode = .scaleAspectFit
+        imageView.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        imageView.widthAnchor.constraint(equalToConstant: 113).isActive = true
+        self.navigationItem.titleView = imageView
     }
     
     @objc private func didTapButton(){

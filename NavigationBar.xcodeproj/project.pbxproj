@@ -13,6 +13,7 @@
 		B53AFE482B339FE80073B1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53AFE472B339FE80073B1BC /* Assets.xcassets */; };
 		B53AFE4B2B339FE80073B1BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53AFE492B339FE80073B1BC /* LaunchScreen.storyboard */; };
 		B5404A4F2B3EBE2500958623 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404A4E2B3EBE2500958623 /* SecondController.swift */; };
+		B5404A522B3ED3B800958623 /* NavExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404A512B3ED3B800958623 /* NavExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B53AFE4A2B339FE80073B1BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53AFE4C2B339FE80073B1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5404A4E2B3EBE2500958623 /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		B5404A512B3ED3B800958623 /* NavExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				B53AFE492B339FE80073B1BC /* LaunchScreen.storyboard */,
 				B53AFE3E2B339FE60073B1BC /* AppDelegate.swift */,
 				B53AFE402B339FE60073B1BC /* SceneDelegate.swift */,
+				B5404A512B3ED3B800958623 /* NavExtension.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				B5404A4F2B3EBE2500958623 /* SecondController.swift in Sources */,
 				B53AFE3F2B339FE60073B1BC /* AppDelegate.swift in Sources */,
 				B53AFE412B339FE60073B1BC /* SceneDelegate.swift in Sources */,
+				B5404A522B3ED3B800958623 /* NavExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
