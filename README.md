@@ -11,3 +11,13 @@ Through this project, I have learnt how to programmatically build a navigation b
 3. Go to Xcode sidebar
   - Delete the main storyboard 'main'
 4. Go to the 'SceneDelegate' file, inside the scene function, remove the existing and copy paste the following code;
+        guard let windowScene = (scene as? UIWindowScene) else {return}
+        let window = UIWindow(windowScene: windowScene)
+        
+        let vc = ViewController()
+        let nav = UINavigationController(rootViewController: vc)
+        
+        window.rootViewController = nav
+        
+        self.window = window
+        self.window?.makeKeyAndVisible()
