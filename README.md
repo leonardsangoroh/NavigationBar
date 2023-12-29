@@ -3,13 +3,13 @@ Through this project, I have learnt how to programmatically build a navigation b
 
 ## Initial setup
 1. Go to info
-  - Select 'Main storyboard file base name'
-  - Delete it
+    - Select 'Main storyboard file base name'
+    - Delete it
 2. Go to Application Scene Manifest
-  - Open it up until you get to 'Storyboard Name'
-  - Delete it
+    - Open it up until you get to 'Storyboard Name'
+    - Delete it
 3. Go to Xcode sidebar
-  - Delete the main storyboard 'main'
+    - Delete the main storyboard 'main'
 4. Go to the 'SceneDelegate' file, inside the scene function, remove the existing and copy paste the following code;
         guard let windowScene = (scene as? UIWindowScene) else {return}
         let window = UIWindow(windowScene: windowScene)
