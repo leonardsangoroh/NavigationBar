@@ -17,6 +17,8 @@ This NavigationBar was built and run on iOS 15.0
 3. Go to Xcode sidebar
     - Delete the main storyboard 'main'
 4. Go to the 'SceneDelegate' file, inside the scene function, remove the existing and copy paste the following code;
+
+
         guard let windowScene = (scene as? UIWindowScene) else {return}
         let window = UIWindow(windowScene: windowScene)
         
